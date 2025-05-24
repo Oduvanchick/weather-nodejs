@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --runInBand --detectOpenHandles",
+    "start": "node src/index.js",
+    "migrate": "node ./node_modules/node-pg-migrate/bin/node-pg-migrate.js up -m migrations -j sql"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-cron": "^4.0.5",
+    "nodemailer": "^7.0.3",
+    "pg": "^8.16.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "node-pg-migrate": "^7.9.1",
+    "supertest": "^7.1.1"
+  }
+}
