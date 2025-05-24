@@ -32,8 +32,8 @@ A Node.js REST API that allows users to:
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/Oduvanchick/weather-api-app.git
-cd weather-api-app
+git clone https://github.com/Oduvanchick/weather-nodejs.git
+cd weather-nodejs
 ```
 
 ---
